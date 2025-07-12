@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The website of our project</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 20px;
+      background: #fff;
+      border-bottom: 1px solid black;
+    }
+    nav a {
+      margin-left: 15px;
+      text-decoration: none;
+      color: #333;
+    }
+    section {
+      padding: 20px;
+    }
+    .grid {
+      display: grid;
+      gap: 20px;
+    }
+    .circle {
+      width: 80px;
+      height: 80px;
+      background: #ccc;
+      border-radius: 50%;
+    }
+    input, textarea, select, button {
+      display: block;
+      width: 100%;
+      padding: 10px;
+      margin-top: 10px;
+    }
+    .page {
+      display: none;
+    }
+    .active {
+      display: block;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <a href="index.html">Alt data project</a>
+    <nav>
+      <a href="index.html"><strong>Homepage</strong></a>
+      <a href="detail.html"><strong>Details</strong></a>
+      <a href="function.html"><strong>Functions</strong></a>
+      <a href="benefit.html"><strong>Benefits</strong></a>
+      <a href="contact.html"><strong>Contact</strong></a>
+    </nav>
+  </header>
+
+  <!-- PAGE 1: Overview -->
+  <section class="page active">
+    <h2>PURPOSES/ PROJECT NAME</h2>
+    <!-- Project purpose -->
+    <div style="display: flex; gap: 15px;">
+        <p style="width: 50%;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, in eum labore repellendus molestias quidem fuga exercitationem dicta repellat soluta ea consequatur optio libero voluptatum omnis! Earum quidem a ipsam.</p>
+        <div style="background:#ccc; height:150px; margin-top:10px; width: 50%;">Image</div>
+    </div>
+
+    <h2>TARGET AUDIENCES</h2>
+    <!-- Target audiences -->
+    <div style="display: flex; gap: 15px;">
+        <p style="width: 50%;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo ab, et facilis, debitis eaque sit itaque beatae atque totam odit dolore placeat quos nesciunt veniam quasi nostrum consectetur quod nemo!</p>
+        <div style="background:#ccc; height:150px; margin-top:10px; width: 50%;">Image</div>
+    </div>
+  </section>
+</body>
+</html>
