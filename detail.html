@@ -4,59 +4,16 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>The website of our project</title>
-  <style>
-    body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
-    header {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      padding: 10px 20px;
-      background: #fff;
-      border-bottom: 1px solid black;
-    }
-    nav a {
-      margin-left: 15px;
-      text-decoration: none;
-      color: #333;
-    }
-    section {
-      padding: 20px;
-    }
-    .grid {
-      display: grid;
-      gap: 20px;
-    }
-    .circle {
-      width: 80px;
-      height: 80px;
-      background: #ccc;
-      border-radius: 50%;
-    }
-    input, textarea, select, button {
-      display: block;
-      width: 100%;
-      padding: 10px;
-      margin-top: 10px;
-    }
-    .page {
-      display: none;
-    }
-    .active {
-      display: block;
-    }
-  </style>
+  <link rel="stylesheet" href="./styles/benefit.css">
+  <link rel="stylesheet" href="./styles/contact.css">
+  <link rel="stylesheet" href="./styles/detail.css">
+  <link rel="stylesheet" href="./styles/function.css">
+  <link rel="stylesheet" href="./styles/index.css">
+  <link rel="stylesheet" href="./styles/loader.css">
 </head>
 <body>
-  <header>
-    <a href="index.html">Alt data project</a>
-    <nav>
-      <a href="index.html"><strong>Homepage</strong></a>
-      <a href="detail.html"><strong>Details</strong></a>
-      <a href="function.html"><strong>Functions</strong></a>
-      <a href="benefit.html"><strong>Benefits</strong></a>
-      <a href="contact.html"><strong>Contact</strong></a>
-    </nav>
-  </header>
+  <div id="preloader"></div>
+  <x-header></x-header>
 
   <!-- PAGE 2: Technologies -->
   <section class="page active">
@@ -90,8 +47,7 @@
     <h3>Example video using product</h3>
     <div style="background:#eee; height:150px; text-align:center; line-height:150px;">▶</div>
   </section>
-
-
-
+  <script src="./js/Header.js"></script>
+  <script src="./js/loader.js"></script>
 </body>
 </html>

@@ -1,86 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>The website of our project</title>
-  <style>
-    body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
-    header {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      padding: 10px 20px;
-      background: #fff;
-      border-bottom: 1px solid black;
-    }
-    nav a {
-      margin-left: 15px;
-      text-decoration: none;
-      color: #333;
-    }
-    section {
-      padding: 20px;
-    }
-    .grid {
-      display: grid;
-      gap: 20px;
-    }
-    .circle {
-      width: 80px;
-      height: 80px;
-      background: #ccc;
-      border-radius: 50%;
-    }
-    input, textarea, select, button {
-      display: block;
-      width: 100%;
-      padding: 10px;
-      margin-top: 10px;
-    }
-    .page {
-      display: none;
-    }
-    .active {
-      display: block;
-    }
-  </style>
+  <link rel="stylesheet" href="./styles/benefit.css">
+  <link rel="stylesheet" href="./styles/contact.css">
+  <link rel="stylesheet" href="./styles/detail.css">
+  <link rel="stylesheet" href="./styles/function.css">
+  <link rel="stylesheet" href="./styles/index.css">
+  <link rel="stylesheet" href="./styles/loader.css">
 </head>
+
 <body>
-  <header>
-    <a href="index.html">Alt data project</a>
-    <nav>
-      <a href="index.html"><strong>Homepage</strong></a>
-      <a href="detail.html"><strong>Details</strong></a>
-      <a href="function.html"><strong>Functions</strong></a>
-      <a href="benefit.html"><strong>Benefits</strong></a>
-      <a href="contact.html"><strong>Contact</strong></a>
-    </nav>
-  </header>
+  <div id="preloader"></div>
+  <x-header></x-header>
 
   <!-- PAGE 5: Contact -->
   <section class="page active" style="background:#dce7ff">
-    <div style="margin: auto; justify-content: center; text-align: center; width: 100%;">
-        <h2>ASK US ANY QUESTIONS</h2>
-        <div style="width: 100%; margin: auto;">
-            <input type="text" placeholder="Your Name" required>
+    <div style="width: 100%; margin-bottom: 20px;">
+      <h2 style="text-align: center;">Any questions? Feel free to ask us!</h2>
+      <form id = "contact-form">
+        <div style="width: 100%; margin-bottom: 15px;">
+          <label for="name" style="margin-left: 0;"><strong>Name:</strong></label>
+          <input type="text" placeholder="Your Name" id="name" required>
         </div>
-        <div style="width: 100%; margin: auto;">
-            <input type="email" placeholder="Your Email" required>
+        <div style="width: 100%; margin-bottom: 15px;">
+          <label for="email" style="margin-left: 0;"><strong>Email:</strong></label>
+          <input type="email" placeholder="Your Email" id="email" required>
         </div>
-        <div style="width: 100%; margin: auto;">
-            <textarea placeholder="DESCRIBE MORE ABOUT OUR PROJECT"></textarea>
+        <div style="width: 100%; margin-bottom: 15px;">
+          <label for="subject" style="margin-left: 0;"><strong>Subject:</strong></label>
+          <input type="text" placeholder="Your Title" id="subject" required>
         </div>
-        <button style="background:blue; color:white;">SUBMIT</button>  
+        <div style="width: 100%; margin-bottom: 15px;">
+          <label for="message" style="margin-left: 0;"><strong>Message:</strong></label>
+          <textarea placeholder="Your Message" rows="4" id="message" style="resize: none;"></textarea>
+        </div>
+        <button style="background:blue; color:white;">SUBMIT</button>
+      </form>
     </div>
 
     <h2>OUR CONTRIBUTORS</h2>
     <div class="grid" style="grid-template-columns: repeat(2, 1fr); margin: auto;">
-      <div><div class="circle"></div><p>Họ và Tên<br>Email</p></div>
-      <div><div class="circle"></div><p>Họ và Tên<br>Email</p></div>
-      <div><div class="circle"></div><p>Họ và Tên<br>Email</p></div>
-      <div><div class="circle"></div><p>Họ và Tên<br>Email</p></div>
+      <div>
+        <div class="circle"></div>
+        <p>Họ và Tên<br>Email</p>
+      </div>
+      <div>
+        <div class="circle"></div>
+        <p>Họ và Tên<br>Email</p>
+      </div>
+      <div>
+        <div class="circle"></div>
+        <p>Họ và Tên<br>Email</p>
+      </div>
+      <div>
+        <div class="circle"></div>
+        <p>Họ và Tên<br>Email</p>
+      </div>
     </div>
   </section>
+  <script src="./js/Header.js"></script>
+  <script src="./js/loader.js"></script>
 </body>
+
 </html>
