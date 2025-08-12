@@ -7,7 +7,6 @@
 <body>
   <div id="preloader"></div>
   <?php require_once './components/header.php';?>
-
   <!-- PAGE 4: Benefits -->
   <section class="page active">
     <select><option>Categories to show</option></select>

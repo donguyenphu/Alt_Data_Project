@@ -14,6 +14,7 @@
   <section class="page active" style="background:#dce7ff">
     <div style="width: 100%; margin-bottom: 20px;">
       <h2 style="text-align: center;">Any questions? Feel free to ask us!</h2>
+      <!-- Form start -->
       <form id = "contact-form">
         <div style="width: 100%; margin-bottom: 15px;">
           <label for="name" style="margin-left: 0;"><strong>Name:</strong></label>
@@ -33,10 +34,11 @@
         </div>
         <button style="background:blue; color:white;">SUBMIT</button>
       </form>
+      <!-- Form end -->
     </div>
-
     <h2>OUR CONTRIBUTORS</h2>
     <div class="grid" style="grid-template-columns: repeat(2, 1fr); margin: auto;">
+      <!-- Contributors start -->
       <div>
         <div class="circle"></div>
         <p>Họ và Tên<br>Email</p>
@@ -53,6 +55,7 @@
         <div class="circle"></div>
         <p>Họ và Tên<br>Email</p>
       </div>
+      <!-- Contributors end -->
     </div>
   </section>
   <?php require_once './components/script.php'; ?>

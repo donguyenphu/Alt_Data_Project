@@ -12,6 +12,7 @@
   <section class="page active">
     <h2>QUOTE HERE</h2>
     <p>OUR TECHNOLOGIES / FRAMEWORK (PROJECT STACK)</p>
+    <!-- Stack start -->
     <div>
       FRONTEND:
       <div style="display: flex; gap: 10px;">
@@ -35,6 +36,7 @@
         <div style="width:20px;height:20px;background:gray"></div>
       </div>
     </div>
+    <!-- Stack end -->
     <h3>FINANCIAL / PRICING PLANS</h3>
     <div style="background:#ccc; height:100px;"></div>
     <h3>Example video using product</h3>
