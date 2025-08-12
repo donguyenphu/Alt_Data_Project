@@ -2,20 +2,13 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>The website of our project</title>
-  <link rel="stylesheet" href="./styles/benefit.css">
-  <link rel="stylesheet" href="./styles/contact.css">
-  <link rel="stylesheet" href="./styles/detail.css">
-  <link rel="stylesheet" href="./styles/function.css">
-  <link rel="stylesheet" href="./styles/index.css">
-  <link rel="stylesheet" href="./styles/loader.css">
+  <?php require_once './components/head.php'; ?>
+  <title>Contact us</title>
 </head>
 
 <body>
   <div id="preloader"></div>
-  <x-header></x-header>
+  <?php require_once './components/header.php';?>
 
   <!-- PAGE 5: Contact -->
   <section class="page active" style="background:#dce7ff">
@@ -24,19 +17,19 @@
       <form id = "contact-form">
         <div style="width: 100%; margin-bottom: 15px;">
           <label for="name" style="margin-left: 0;"><strong>Name:</strong></label>
-          <input type="text" placeholder="Your Name" id="name" required>
+          <input type="text" placeholder="Your Name..." id="name" required>
         </div>
         <div style="width: 100%; margin-bottom: 15px;">
           <label for="email" style="margin-left: 0;"><strong>Email:</strong></label>
-          <input type="email" placeholder="Your Email" id="email" required>
+          <input type="email" placeholder="Your Email..." id="email" required>
         </div>
         <div style="width: 100%; margin-bottom: 15px;">
-          <label for="subject" style="margin-left: 0;"><strong>Subject:</strong></label>
-          <input type="text" placeholder="Your Title" id="subject" required>
+          <label for="subject" style="margin-left: 0;"><strong>Title:</strong></label>
+          <input type="text" placeholder="Your Title..." id="subject" required>
         </div>
         <div style="width: 100%; margin-bottom: 15px;">
           <label for="message" style="margin-left: 0;"><strong>Message:</strong></label>
-          <textarea placeholder="Your Message" rows="4" id="message" style="resize: none;"></textarea>
+          <textarea placeholder="Your Message..." rows="5" id="message" style="resize: none;"></textarea>
         </div>
         <button style="background:blue; color:white;">SUBMIT</button>
       </form>
@@ -62,8 +55,7 @@
       </div>
     </div>
   </section>
-  <script src="./js/Header.js"></script>
-  <script src="./js/loader.js"></script>
+  <?php require_once './components/script.php'; ?>
 </body>
 
 </html>

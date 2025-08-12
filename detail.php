@@ -1,19 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>The website of our project</title>
-  <link rel="stylesheet" href="./styles/benefit.css">
-  <link rel="stylesheet" href="./styles/contact.css">
-  <link rel="stylesheet" href="./styles/detail.css">
-  <link rel="stylesheet" href="./styles/function.css">
-  <link rel="stylesheet" href="./styles/index.css">
-  <link rel="stylesheet" href="./styles/loader.css">
+  <?php require_once './components/head.php';?>
+  <title>Our project's components</title>
 </head>
 <body>
   <div id="preloader"></div>
-  <x-header></x-header>
+  <?php require_once './components/header.php';?>
 
   <!-- PAGE 2: Technologies -->
   <section class="page active">
@@ -47,7 +40,6 @@
     <h3>Example video using product</h3>
     <div style="background:#eee; height:150px; text-align:center; line-height:150px;">▶</div>
   </section>
-  <script src="./js/Header.js"></script>
-  <script src="./js/loader.js"></script>
+  <?php require_once './components/script.php'; ?>
 </body>
 </html>
