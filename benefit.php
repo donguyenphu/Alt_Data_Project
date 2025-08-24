@@ -20,6 +20,7 @@
       <li>+ benefit 1</li>
     </ul>
   </section>
+  <?php require_once './components/footer.php'; ?>
   <?php require_once './components/script.php'; ?>
 </body>
 </html>

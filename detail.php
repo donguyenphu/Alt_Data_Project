@@ -42,6 +42,7 @@
     <h3>Example video using product</h3>
     <div style="background:#eee; height:150px; text-align:center; line-height:150px;">▶</div>
   </section>
+  <?php require_once './components/footer.php'; ?>
   <?php require_once './components/script.php'; ?>
 </body>
 </html>

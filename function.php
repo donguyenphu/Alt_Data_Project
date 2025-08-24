@@ -10,6 +10,7 @@
   <!-- PAGE 3: Functions -->
   <section class="page active">
     <h2>DIRECT USING PRODUCT RIGHT ON WEBSITE</h2>
+    <select><option>Website</option></select>
     <select><option>Categories to show</option></select>
     <select><option>Number of rows</option></select>
     <select><option>Year start</option></select>
@@ -18,6 +19,7 @@
     <h3>THE RESULT</h3>
     <div style="background:#ccc; height:150px;"></div>
   </section>
+  <?php require_once './components/footer.php'; ?>
   <?php require_once './components/script.php'; ?>
 </body>
 </html>

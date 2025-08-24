@@ -62,6 +62,7 @@
       <!-- Contributors end -->
     </div>
   </section>
+  <?php require_once './components/footer.php'; ?>
   <?php require_once './components/script.php'; ?>
 </body>
 

@@ -4,8 +4,17 @@
     box-sizing: border-box;
 }
 
-html, body {
+a {
+    text-decoration: none;
+}
+
+html,
+body {
     overscroll-behavior: none;
+    margin: 0;
+    padding: 0;
+    min-height: 0;
+    height: 100%;
 }
 
 header {
@@ -14,8 +23,21 @@ header {
     align-items: center;
     background: #fff;
     border-bottom: 1px solid black;
-    padding: 20px;
-    box-shadow: 5px 5px 10px rgba(0,0,0,0.3);
+    /* top | right | bottom | left */
+    padding: 15px 20px 15px 20px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+footer {
+    padding: 30px;
+    background-color: black;
+    margin-bottom: 0;
+    /* lr negpos - updown negpos - deg of blur */
+    box-shadow: 0px -10px 10px rgba(0, 0, 0, 0.3);
+    position: relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
 }
 
 nav a {
@@ -59,7 +81,8 @@ button {
     display: block;
 }
 
-input, textarea {
+input,
+textarea {
     border-radius: 10px;
 }
 
@@ -68,10 +91,34 @@ input, textarea {
     font-family: 'Open Sans', sans-serif;
     font-weight: 700;
     text-decoration: none;
+    color: black;
 }
 
 .categoryHeader {
-    font-size: 17px;
+    font-size: 18px;
     font-family: 'Open Sans', sans-serif;
     font-weight: bold;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.contactLink {
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    color: grey;
+}
+
+#icon {
+    color: #808080 !important;
+    font-size: 20px;
+}
+
+#lineContact {
+    margin-top: 30px;
+    padding: 0.5px;
+    background-color: grey;
 }
