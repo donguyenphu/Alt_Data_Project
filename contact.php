@@ -9,9 +9,7 @@
 <body>
   <div id="preloader"></div>
   <?php require_once './components/header.php'; ?>
-
-  <!-- PAGE 5: Contact -->
-  <section class="page active" style="background:#dce7ff">
+  <section style="background:#dce7ff">
     <div style="width: 100%; margin-bottom: 20px;">
       <h2 class="titleContactForm">Any questions? Feel free to ask us!</h2>
       <!-- Form start -->

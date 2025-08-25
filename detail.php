@@ -7,9 +7,7 @@
 <body>
   <div id="preloader"></div>
   <?php require_once './components/header.php';?>
-
-  <!-- PAGE 2: Technologies -->
-  <section class="page active">
+  <section>
     <h2>QUOTE HERE</h2>
     <p>OUR TECHNOLOGIES / FRAMEWORK (PROJECT STACK)</p>
     <!-- Stack start -->

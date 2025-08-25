@@ -7,8 +7,7 @@
 <body>
   <div id="preloader"></div>
   <?php require_once './components/header.php';?>
-  <!-- PAGE 4: Benefits -->
-  <section class="page active">
+  <section>
     <select><option>Categories to show</option></select>
     <p>Trend prediction + show prediction, small fluctuation in product vs real</p>
     <div style="background:#ccc; width:200px; height:120px;">Graph</div>

@@ -7,8 +7,7 @@
 <body>
   <div id="preloader"></div>
   <?php require_once './components/header.php';?>
-  <!-- PAGE 3: Functions -->
-  <section class="page active">
+  <section>
     <h2>DIRECT USING PRODUCT RIGHT ON WEBSITE</h2>
     <select><option>Website</option></select>
     <select><option>Categories to show</option></select>

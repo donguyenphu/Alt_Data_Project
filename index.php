@@ -9,8 +9,7 @@
 <body>
   <div id="preloader"></div>
   <?php require_once './components/header.php'; ?>
-  <!-- PAGE 1: Overview -->
-  <section class="page active">
+  <section>
     <h2>PURPOSES/ PROJECT NAME</h2>
     <!-- Project purpose -->
     <div style="display: flex; gap: 15px;">

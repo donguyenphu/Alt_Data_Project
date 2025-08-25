@@ -30,12 +30,12 @@
     }
 ?>
 <footer>
-    <a href="index.php" class="logoWebsite" style="color: white;">Alternative Data</a>
+    <a href="index.php" class="logoWebsite">Alternative Data</a>
     <div style="margin: auto; display: flex; justify-content:center; gap: 20px;">
         <!-- terms and policy -->
         <div style="width: 33%; line-height: 30px;">
             <div>
-                <h3 class="logoWebsite" style="font-size: 20px; color: white; margin: 10px 0 10px 0;">
+                <h3 class="logoWebsite" style="font-size: 20px; margin: 10px 0 10px 0;">
                     Terms and Policy
                 </h3>
             </div>
