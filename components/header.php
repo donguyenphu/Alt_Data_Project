@@ -33,7 +33,7 @@ foreach ($categories as $key => $value) {
 ?>
 <header>
     <a href="index.php" class="logoWebsite">ALTERNATIVE DATA</a>
-    <nav>
+    <nav id="headerCategoryWrapper">
         <?php echo $htmlHeader; ?>
     </nav>
 </header>

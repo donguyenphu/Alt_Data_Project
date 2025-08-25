@@ -2,6 +2,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+image {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
 }
 
 a {
@@ -29,7 +36,7 @@ header {
     background: black;
     border-bottom: 1px solid black;
     /* top | right | bottom | left */
-    padding: 15px 20px 15px 20px;
+    padding: 10px 20px 10px 20px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
 }
 
@@ -134,4 +141,12 @@ body {
     margin-top: 30px;
     padding: 0.5px;
     background-color: grey;
+}
+
+@media (max-width: 1) {
+  #headerCategoryWrapper {
+    flex-direction: column; /* Changes items to a vertical stack */
+    align-items: center; /* Centers items horizontally in the column */
+  }
+
 }

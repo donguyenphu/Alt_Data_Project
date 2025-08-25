@@ -10,17 +10,34 @@
   <div id="preloader"></div>
   <?php require_once './components/header.php'; ?>
   <section>
-    <h2>PURPOSES/ PROJECT NAME</h2>
-    <!-- Project purpose -->
-    <div style="display: flex; gap: 15px;">
-      <p style="width: 50%;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, in eum labore repellendus molestias quidem fuga exercitationem dicta repellat soluta ea consequatur optio libero voluptatum omnis! Earum quidem a ipsam.</p>
-      <div style="background:#ccc; height:150px; margin-top:10px; width: 50%;">Image</div>
+    <!-- Slides -->
+    <div class="slideWrapper">
+      <strong>
+        Ngu Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, suscipit quia. Sit alias quos a voluptates enim hic explicabo obcaecati quibusdam, maiores laborum quaerat quidem aspernatur inventore, rem porro consectetur.
+      </strong>
     </div>
-    <h2>TARGET AUDIENCES</h2>
+
+    <!-- Project purpose -->
+    
+    <div class="motivationIndexWrapper">
+      <div>
+        <h2 class="logoWebsite" style="color: black; margin-bottom: 10px;">Initial idea/ Motivation</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, in eum labore repellendus molestias quidem fuga exercitationem dicta repellat soluta ea consequatur optio libero voluptatum omnis! Earum quidem a ipsam.</p>
+      </div>
+      <div style="max-height:150px;">
+        <img src="./image/dummy.webp" alt="Our inspiration" style="width: 100%; height: 100%; border-radius: 15px;">
+      </div>
+    </div>
+
     <!-- Target audiences -->
-    <div style="display: flex; gap: 15px;">
-      <p style="width: 50%;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo ab, et facilis, debitis eaque sit itaque beatae atque totam odit dolore placeat quos nesciunt veniam quasi nostrum consectetur quod nemo!</p>
-      <div style="background:#ccc; height:150px; margin-top:10px; width: 50%;">Image</div>
+    <div class="motivationIndexWrapper">
+      <div>
+        <h2 class="logoWebsite" style="color: black; margin-bottom: 10px;">Target audiences</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, in eum labore repellendus molestias quidem fuga exercitationem dicta repellat soluta ea consequatur optio libero voluptatum omnis! Earum quidem a ipsam.</p>
+      </div>
+      <div style="max-height:150px;">
+        <img src="./image/dummy.webp" alt="Our inspiration" style="width: 100%; height: 100%; border-radius: 15px;">
+      </div>
     </div>
   </section>
   <?php require_once './components/footer.php'; ?>

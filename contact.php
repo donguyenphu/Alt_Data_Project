@@ -32,33 +32,8 @@
         </div>
         <button class="buttonContactForm">Submit</button>
       </form>
-      <!-- Form end -->
     </div>
-    <h2 class="contributorContact">OUR CONTRIBUTORS</h2>
-    <div class="grid" style="grid-template-columns: repeat(2, 1fr); margin: auto;">
-      <!-- Contributors start -->
-      <div style="width: 50%; margin: auto;">
-        <div style="margin: auto;">
-          <div class="circle"></div>
-          <p>Họ và Tên:<br>Email:</p>
-        </div style="margin: auto;">
-        <div>
-          <div class="circle"></div>
-          <p>Họ và Tên:<br>Email:</p>
-        </div>
-      </div>
-      <div style="width: 50%; margin: auto;">
-        <div style="margin: auto;">
-          <div class="circle"></div>
-          <p>Họ và Tên:<br>Email:</p>
-        </div>
-        <div style="margin: auto;">
-          <div class="circle"></div>
-          <p>Họ và Tên:<br>Email:</p>
-        </div>
-      </div>
-      <!-- Contributors end -->
-    </div>
+    <!-- Form end -->
   </section>
   <?php require_once './components/footer.php'; ?>
   <?php require_once './components/script.php'; ?>
